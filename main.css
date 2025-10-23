@@ -416,3 +416,123 @@ width: 50%;
     opacity: 0.9;
   }
 /* Subscribers ended */
+/* footer starts */
+body {
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    background-color: #0a0e27;
+    color: #ffffff;
+  }
+  
+  /* Footer asosiy fon */
+  .footer {
+    background: linear-gradient(180deg, #0a0e27 0%, #0b122e 100%);
+    padding: 60px 0 20px 0;
+    color: #b3b9c5;
+  }
+  
+  /* Ichki container */
+  .footer-container {
+    max-width: 1240px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); /* 🔧 180px → 220px */
+    gap: 60px; /* 🔧 40px → 60px (ustunlar orasini kengaytiradi) */
+  }
+  
+  
+  /* Brend ustuni */
+  .footer-logo {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: #fff;
+    margin-bottom: 15px;
+  }
+  
+  .footer-logo h3 {
+    font-size: 20px;
+    font-weight: 600;
+  }
+  
+  .footer p {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin: 6px 0;
+  }
+  
+  /* Ustun sarlavhalar */
+  .footer-col h4 {
+    color: #fff;
+    margin-bottom: 15px;
+    font-size: 16px;
+    font-weight: 600;
+  }
+  
+  /* Havolalar */
+  .footer-col ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .footer-col ul li {
+    margin: 8px 0;
+  }
+  
+  .footer-col ul li a {
+    color: #b3b9c5;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .footer-col ul li a:hover {
+    color: #fff;
+  }
+  
+  /* Ijtimoiy tarmoqlar */
+  .social-icons a {
+    display: inline-block;
+    color: #b3b9c5;
+    font-size: 18px;
+    margin-right: 10px;
+    transition: color 0.3s;
+  }
+  
+  .social-icons a:hover {
+    color: #fff;
+  }
+  
+  /* Pastki qism (© 2021...) */
+  .footer-bottom {
+    border-top: 1px solid #2b324c;
+    margin-top: 40px;
+    padding-top: 20px;
+  }
+  
+  .footer-container.bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .footer-links a {
+    margin-left: 20px;
+    color: #8f96ad;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .footer-links a:hover {
+    color: #fff;
+  }
+  
+  .footer-bottom p {
+    color: #8f96ad;
+    font-size: 14px;
+  }
+  
+/* footer ends */
